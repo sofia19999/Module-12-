@@ -9,8 +9,8 @@ This is a command-line application to manage a company's employee database using
 3. Set up your PostgreSQL database and configure the connection in `db/queries.js`.
 4. Run the following commands to set up the database schema and seed data:
     ```bash
-    psql -U postgres-d your_database_name -f db/schema.sql
-    psql -U postgres -d your_database_name -f db/seeds.sql
+    psql -U postgres-d employee_tracker -f db/schema.sql
+    psql -U postgres -d employee_tracker -f db/seeds.sql
     ```
 5. Run `node index.js` to start the application.
 
